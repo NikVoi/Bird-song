@@ -3,7 +3,7 @@
 The Bird Quiz is a web application designed to provide users with an interactive quiz game that tests their knowledge of bird calls. This project offers a fun and educational experience, allowing users to listen to bird sounds, guess the correct bird, and earn points for each correct answer. The website is fully responsive, catering to both mobile and desktop users.
 
 ## Live Demo
-You can access the live version of the project here: [ [ task-2-pearl.vercel.app](https://task-2-pearl.vercel.app/)](https://nikvoi.github.io/Bird-song/)
+You can access the live version of the project here: https://nikvoi.github.io/Bird-song/
 
 ##Key Features:
 
