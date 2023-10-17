@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--LINKS-->
+    <link rel="icon" href="./img/bird.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!--META-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Song Bird</title>
+</head>
+<body class="">
+    <div class="modal ">
+        <div class="modal__content">
+            <div class="modal__titel">Поздравляем!</div>
+            <div class="modal__description">Вы прошли викторину и набрали <span class="modal__score">10</span> из 30 возможных баллов</div>
+            <a href="./index.html" class="button--start"><button class="button">Try again</button></a>
+        </div>
+    </div>
+
+
+    <header class="header">
+        <div class="conteiner">
+            <div class="header__logo">
+                <a href="./index.html" class="logo"><span class="logo__song"></span>Song<span class="logo__bird">bird</span></a>
+            </div>
+            <div class="header__score">
+                 Score: <span class="score">0</span>
+            </div>
+            <div class="header__leave">
+                <a href="./index.html"> Exit </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="conteiner">
+            <div class="level level__wrapper">
+                <div class="level__item active">    Разминка        </div>
+                <div class="level__item">           Воробьи         </div>
+                <div class="level__item">           Лестные птицы   </div>
+                <div class="level__item">           Певчие птицы    </div>
+                <div class="level__item">           Хищные птицы    </div>
+                <div class="level__item">           Морские птицы   </div>
+            </div>
+
+            <div class="question">
+                <div class="question__img">
+                    <img src="./img/logo.webp" alt="bird">
+                </div>
+                <div class="question__wrapper">
+                    <div class="question__name">
+                        ****
+                    </div>
+                    <hr>
+                    <div class="question__audio">
+                        <div class="audio__HTML">
+                        </div>
+
+                        <div class="audio">
+                            <div class="audio__button">
+                                <div class="audio__action"></div>
+                            </div>
+                            <div class="audio__progress">
+                                <input type="range" min="0" max = "100" value="1" class="audio__progress-input">
+
+                                <div class="audio__time">
+                                    <div>00:<span class="audio__time-now">00</span></div>
+                                    <div>00:<span class="audio__time-full">00</span></div>
+                                </div>
+                            </div>
+                            <div class="audio__volum"><input type="range" min = 0 max = 100 class="audio__volum-input"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="answer">
+                <div class="input__wrapper">
+                </div>
+
+                <div class="answer__info">
+                    <p class="active">Послушайте плеер. <br> Выберите птицу из списка</p>
+                </div>
+            </div> <!--answer-->
+            <button class="button noActive" id = "buttonNext">Next level</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="conteiner">
+            <div class="footer__wrapper">
+                <div class="footer__left">
+                   <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS school"></a>
+                </div>
+                <div class="footer__right">
+                    <p><a href="https://github.com/NikVoi" class="footer__link">Dev by nikvoi-JSFE2022Q3</a></p>
+                </div>
+            </div>                                      
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
